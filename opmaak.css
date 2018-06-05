@@ -1,6 +1,6 @@
 
  body{
-   background-color: lilac;}
+   background-color: #ffe6e6;}
 
 a { text-decoration:none; }
 
@@ -35,4 +35,30 @@ h2 {
 p{
   color: black ;
   text-align: justify;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #ff0000 on hover */
+li a:hover {
+    background-color: #ff0000;
 }
